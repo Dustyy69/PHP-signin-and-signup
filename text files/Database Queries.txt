@@ -1,0 +1,26 @@
+Creation
+
+create database db_medtrackers
+
+create table tbl_roles(
+    id int PRIMARY key AUTO_INCREMENT,
+   	role varchar(20))
+
+Create table tbl_user_info(
+	id int primary key AUTO_INCREMENT,
+    username varchar(25),
+    fname varchar(25),
+    lname varchar(25),
+    email varchar(25),
+    password varchar(50),
+    role int,
+    FOREIGN KEY (role) REFERENCES tbl_roles (id))
+
+
+INSERT into tbl_roles ('role') values ('admin')
+INSERT into tbl_roles ('role') values ('patient')
+INSERT into tbl_roles ('role') values ('hospital')
+
+INSERT INTO `tbl_user_info` (`username`, `fname`, `lname`, `email`, `password`, `role`) VALUES ('admin', 'admin', 'admin', 'admin@admin.com', 'admin', '1');
+INSERT INTO `tbl_user_info` (`username`, `fname`, `lname`, `email`, `password`, `role`) VALUES ('parent', 'parent', 'parent', 'parent@parent.com', 'parent', '2');
+INSERT INTO `tbl_user_info` (`username`, `fname`, `lname`, `email`, `password`, `role`) VALUES ('hospital', 'hospital', 'hospital', 'hospital@hospital.com', 'hospital', '3');	

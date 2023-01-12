@@ -1,0 +1,23 @@
+Designing the overall layout and structure of the website, including the different pages and features that will be included.
+
+Setting up the database to store information about users (admins, hospitals, and parents), vaccinations, and other relevant data.
+
+Implementing user authentication and authorization for the three different types of logins (admin, hospital, and parent). This would likely involve creating separate login pages and database tables to store login information for each user type.
+
+Developing the functionality for the admin to add/update/delete hospitals, vaccinations and manage the system
+
+Developing the functionality for the hospital to add/update/delete appointments and vaccination records
+
+Developing the functionality for the parents to view/book/cancel their vaccination appointments
+
+Creating a front-end interface that is easy to use and visually appealing, using HTML, CSS, and JavaScript.
+
+Testing and debugging the website to ensure that it works as expected and is free of any errors or security vulnerabilities.
+
+
+
+
+
+This is high-level steps, many sub-tasks and design decisions need to be taken throughout development.
+
+It is important to note that website development, especially a project with a scope like this one, is a complex and time-consuming task, and would likely require the work of multiple developers with different skills and expertise
